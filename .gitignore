@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+
+# Data files
+data/raw/
+data/processed/
+
+# Output
+output/
+hdfs/
+
+# Env
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
