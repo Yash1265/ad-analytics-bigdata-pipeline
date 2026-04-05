@@ -28,18 +28,29 @@ CSV → Spark → MySQL → Analytics
 ad-analytics-bigdata-pipeline/
 │
 ├── src/
+
 │ ├── data_generator.py
+
 │ ├── data_cleaner.py
+
 │ ├── load_to_mysql.py
+
 │ ├── spark_batch_mysql.py
+
 │ ├── kafka_producer.py
+
 │ └── spark_streaming_kafka.py
 │
 ├── data/
+
 ├── logs/
+
 ├── output/
+
 ├── hdfs/
+
 ├── README.md
+
 └── main.py
 
 ## 📈 Metrics Calculated
