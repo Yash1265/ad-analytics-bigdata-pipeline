@@ -187,7 +187,7 @@ col1, col2, col3 = st.columns(3)
 
 col1.metric(
     "Total Impressions",
-    total_impressions
+    f"{total_impressions:,}"
 )
 
 
@@ -196,7 +196,7 @@ col1.metric(
 
 col2.metric(
     "Total Clicks",
-    total_clicks
+    f"{total_clicks:,}"
 )
 
 
